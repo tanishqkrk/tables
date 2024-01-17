@@ -93,7 +93,7 @@ function App() {
         </div>
       ) : (
         <div className="text-center flex items-center w-full flex-col justify-center gap-6 h-[95%] bg-lgreen rounded-t-[3em] border-4 border-dgreen pb-4">
-          <div className="flex flex-col gap-5 h-[70vh] overflow-y-scroll p-3 w-full">
+          <div className="flex flex-col gap-5 h-[70vh] overflow-y-scroll p-3 w-full pt-6 rounded-t-2xl">
             {numbers.map((n) => {
               return new Array(amount).fill("").map((m) => {
                 const random = Math.floor(Math.random() * 11 + 1);
