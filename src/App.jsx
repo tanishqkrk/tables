@@ -14,7 +14,7 @@ function App() {
   console.log(new Array(amount));
 
   return (
-    <div className="h-screen flex items-end flex-col justify-between">
+    <div className="h-[100svh] flex items-end flex-col justify-between">
       <div className="text-3xl text-black font-bold text-center w-full h-[5%]">
         TABLES
       </div>
