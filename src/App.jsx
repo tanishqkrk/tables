@@ -111,8 +111,8 @@ function App() {
                     <div className="bg-dgreen text-lgreen text-xl p-4 font-bold rounded-md  w-fit">
                       =
                     </div>
-                    <div className="bg-dgreen text-xl p-4 font-bold rounded-md  w-fit text-center">
-                      {n.number * random}
+                    <div className="bg-lgreen text-xl w-16 mr-6 font-bold rounded-md h-8 text-center">
+                      {""}
                     </div>
                   </div>
                 );
